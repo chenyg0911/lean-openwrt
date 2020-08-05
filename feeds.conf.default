@@ -1,5 +1,8 @@
-src/gz openwrt_core https://openwrt.proxy.ustclug.org/snapshots/targets/x86/64/packages
-src/gz openwrt_base https://openwrt.proxy.ustclug.org/snapshots/packages/x86_64/base
-src/gz openwrt_kenzo https://openwrt.proxy.ustclug.org/snapshots/packages/x86_64/kenzo
-src/gz openwrt_luci https://openwrt.proxy.ustclug.org/releases/18.06.8/packages/x86_64/luci
-src/gz openwrt_routing https://openwrt.proxy.ustclug.org/snapshots/packages/x86_64/routing
+src-git packages https://github.com/coolsnowwolf/packages
+src-git luci https://github.com/coolsnowwolf/luci
+src-git routing https://git.openwrt.org/feed/routing.git
+src-git telephony https://git.openwrt.org/feed/telephony.git
+src-git freifunk https://github.com/freifunk/openwrt-packages.git
+src-git kenzok8 https://github.com/kenzok8/openwrt-packages.git
+src-git small https://github.com/kenzok8/small.git
+
